@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '354ad62450c5963588f8aa052f4a969a334ff3ef',
         'name' => 'yiisoft/yii2-app-advanced',
         'dev' => true,
     ),
@@ -206,6 +206,15 @@
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
             'reference' => 'dc960a912984efb74d0a90222870c72c87f10c91',
+            'dev_requirement' => true,
+        ),
+        'imagine/imagine' => array(
+            'pretty_version' => '1.2.4',
+            'version' => '1.2.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../imagine/imagine',
+            'aliases' => array(),
+            'reference' => 'd2e18be6e930ca169e4f921ef73ebfc061bf55d8',
             'dev_requirement' => true,
         ),
         'myclabs/deep-copy' => array(
@@ -731,12 +740,12 @@
             'dev_requirement' => false,
         ),
         'yiisoft/yii2-app-advanced' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '354ad62450c5963588f8aa052f4a969a334ff3ef',
             'dev_requirement' => false,
         ),
         'yiisoft/yii2-bootstrap' => array(
@@ -782,6 +791,15 @@
             'install_path' => __DIR__ . '/../yiisoft/yii2-gii',
             'aliases' => array(),
             'reference' => 'd879cb186361fbc6f71a2d994d580b5a071a5642',
+            'dev_requirement' => true,
+        ),
+        'yiisoft/yii2-imagine' => array(
+            'pretty_version' => '2.3.0',
+            'version' => '2.3.0.0',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../yiisoft/yii2-imagine',
+            'aliases' => array(),
+            'reference' => 'b103b1b1deb786d4d5fe955898ec866dbee5c1b4',
             'dev_requirement' => true,
         ),
         'yiisoft/yii2-swiftmailer' => array(

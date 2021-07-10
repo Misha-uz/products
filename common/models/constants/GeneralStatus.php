@@ -15,11 +15,11 @@ class GeneralStatus
     {
         switch ($num) {
             case self::STATUS_DELETED:
-                return Yii::t('app', 'Deleted');
+                return Yii::t('app', 'Удалено');
             case self::STATUS_NOT_ACTIVE:
-                return Yii::t('app', 'Not active');
+                return Yii::t('app', 'Не активен');
             case self::STATUS_ACTIVE:
-                return Yii::t('app', 'Active');
+                return Yii::t('app', 'Активный');
         }
     }
 
@@ -33,8 +33,8 @@ class GeneralStatus
 
     public static function getArray()
     {
-        $statuses[self::STATUS_ACTIVE] = Yii::t('app', 'Active');
-        $statuses[self::STATUS_NOT_ACTIVE] = Yii::t('app', 'Not active');
+        $statuses[self::STATUS_ACTIVE] = Yii::t('app', 'Активный');
+        $statuses[self::STATUS_NOT_ACTIVE] = Yii::t('app', 'Не активен');
 
         return $statuses;
     }
